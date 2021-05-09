@@ -1,0 +1,155 @@
+.bg-light {
+    background-color: lightcyan !important;
+}
+section {
+    position: relative;}
+
+.pb-30 {
+        padding-bottom: 30px !important;
+    }
+.container::before{
+    display: table;
+    content: " ";
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+section > .container, section > .container-fluid {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: darkslategray;
+    background-color: white;
+}
+
+img {
+    border: 0;
+}
+
+body {
+    line-height: 1.7;
+    color: dimgray;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    background-color: white;
+    background-attachment: fixed;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.row::before {
+    display: table;
+    content: " ";
+}
+
+
+.mb-30 {
+    margin-bottom: 30px !important;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    line-height: 1.42857143;
+    color: darkslategray;
+}
+
+p {
+    color: darkslategray !important;
+    font-family: 'Open Sans', sans-serif!important;
+}
+.row::after {
+    clear: both;
+}
+
+img {
+    height:200px;
+    width:200px;
+    border-radius:100%;
+    vertical-align: middle;
+}
+
+.team-member .thumb {
+    position: relative;
+    overflow: hidden;
+}
+.bg-white {
+    background-color: white !important;
+    padding:5px 10px;
+}
+.outer{
+  display:inline-block;
+  padding:15px 30px;
+  box-shadow: 5px 5px 8px grey;
+  margin:20px;
+  background-color:white;
+}
+
+.team-member {
+    border: 1px solid whitesmoke;
+}
+
+.team-member .info .name {
+  font-family: 'Cormorant Garamond', serif;
+  margin-top: 10px;
+  font-size:1.75em;
+}
+
+.text-gray {
+    color: gray  !important;
+    font-size: 1.2em;
+}
+
+.team-member {
+    border: 1px solid whitesmoke ;
+}
+img:hover {
+  cursor:pointer;
+   opacity: 0.5;
+ }
+
+ a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:visited {
+  color:purple;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.title{
+  color:black;
+  text-decoration: underline;
+  font-family: 'Playfair Display SC', serif;
+  font-size:40px;
+}
+.subtitle{
+  font-family: 'EB Garamond', serif;
+  font-size:25px;
+}
