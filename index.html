@@ -1,22 +1,116 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-
-<head>
-  <meta charset="utf-8">
-  <title> AMAHI </title>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=EB+Garamond&family=Playfair+Display+SC:wght@700&display=swap" rel="stylesheet">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AMAHI</title>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="shortcut icon" href="img/logo.ico" />
+    <link rel="stylesheet" type="text/javascript" href="./js/index.js" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Itim&display=swap"
+      rel="stylesheet"
+    />
+      <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=EB+Garamond&family=Playfair+Display+SC:wght@700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Orelega+One&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-  <style media="screen">
+  </head>
+  <body>
+    <header id="header">
+      <nav id="navbar">
+        <ul>
+          <li><a class="navlink active1" href="#home">Home</a></li>
+          <li><a class="navlink" href="#about">About</a></li>
+          <li><a class="navlink" href="#services">Services</a></li>
+          <li><a class="navlink" href="#hospital">Hospitals</a></li>
+          <li class="dropdown">
+            <a class="dropbtn" href="#"><span>Drop Down</span></a>
+            <ul class="dropdowncontent">
+              <li><a href="#">Drop Down 1</a></li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+            </ul>
+          </li>
+          <li><a class="navlink" href="#contacts">Contacts</a></li>
+          <a id="appointment" href="#appointment">Make an Appointment</a>
+        </ul>
+        <i class="moblie-nav-toggle"></i>
+      </nav>
+    </header>
 
-  </style>
-</head>
+    <section id="testimonials">
+            <h1 class="main">Our Patients Know Best!</h1>
+      <div class="container">
+        <div class="flex-box">
+          <div class="color-box"></div>
 
-<body>
-  <header>
+          <img
+            class="image"
+            id="image-1"
+            src="images/Img1.png"
+            alt="Patient-1"
+          />
+
+          <div class="text">
+            <h2>Richa Modi</h2>
+            <h3>Student</h3>
+            <p>
+              ‟ Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+              beatae esse sit delectus minima porro animi doloremque nostrum
+              blanditiis, omnis velit, odit, eveniet vero nobis.”
+            </p>
+          </div>
+        </div>
+        <div class="flex-box">
+          <div class="color-box"></div>
+
+          <img
+            class="image"
+            id="image-2"
+            src="images/Img2.png"
+            alt="Patient-2"
+          />
+
+          <div class="text">
+            <h2>Aarchi Gupta</h2>
+            <h3>Student</h3>
+            <p>
+              ‟ Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+              beatae esse sit delectus minima porro animi doloremque nostrum
+              blanditiis, omnis velit, odit, eveniet vero nobis.”
+            </p>
+          </div>
+        </div>
+        <div class="flex-box">
+          <div class="color-box"></div>
+
+          <img
+            class="image"
+            id="image-3"
+            src="images/Img3.png"
+            alt="Patient-3"
+          />
+          <div class="text">
+            <h2>Shrishti Kumari</h2>
+            <h3>Student</h3>
+            <p>
+              ‟ Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+              beatae esse sit delectus minima porro animi doloremque nostrum
+              blanditiis, omnis velit, odit, eveniet vero nobis.”
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section id="team" class="bg-light">
-      <div class="container pb-30">
-
+      <div class="container1 pb-30">
         <div class="text-center">
           <div class="row">
             <div>
@@ -31,7 +125,7 @@
               <div class="team-member bg-white">
                 <div class="thumb"><img alt="Maharaja Agrasen Hospital" src="images/MAH.jpeg"></div>
                 <div class="info">
-                  <h4 class="name"><a href="http://www.mahdelhi.org">Maharaja Agrasen<br /> Hospital</a></h4>
+                  <h4 class="name"><a class="a1" href="http://www.mahdelhi.org">Maharaja Agrasen<br /> Hospital</a></h4>
                   <h5 class="text-gray">West Punjabi Bagh<br> New Delhi</h5>
 
                 </div>
@@ -51,7 +145,7 @@
               <div class="team-member bg-white">
                 <div class="thumb"><img alt="Medanta" src="images/Medanta.png"></div>
                 <div class="info">
-                  <h4 class="name"><a href="https://medantaeclinic.org/?gclid=CjwKCAjwkN6EBhBNEiwADVfya-28zk_GP2exZofOIaIMXwQvK0_fVAgZnEw723cZnwRTRSuf9lRGihoCAE0QAvD_BwE#!/home?utm_source=google&utm_medium=paid&utm_campaign=appointment">Medanta</br>
+                  <h4 class="name"><a class="a1" href="https://medantaeclinic.org/?gclid=CjwKCAjwkN6EBhBNEiwADVfya-28zk_GP2exZofOIaIMXwQvK0_fVAgZnEw723cZnwRTRSuf9lRGihoCAE0QAvD_BwE#!/home?utm_source=google&utm_medium=paid&utm_campaign=appointment">Medanta</br>
                       Clinics</a></h4>
                   <h5 class=" text-gray">Gurugram<br>Haryana</h5>
 
@@ -62,7 +156,7 @@
               <div class="team-member bg-white">
                 <div class="thumb"><img alt="Safdarjung Hospital" src="images/safdarjung.png"></div>
                 <div class="info">
-                  <h4 class="name"><a href="http://www.vmmc-sjh.nic.in"> Safdarjung <br />Hospital</a></h4>
+                  <h4 class="name"><a class="a1" href="http://www.vmmc-sjh.nic.in"> Safdarjung <br />Hospital</a></h4>
                   <h5 class="text-gray">Ansari Nagar East<br>New Delhi</h5>
 
                 </div>
@@ -72,8 +166,5 @@
         </div>
       </div>
     </section>
-  </header>
-
-</body>
-
-</html
+  </body>
+</html>
