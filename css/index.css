@@ -231,6 +231,10 @@ li {
 
 
 /******************************** Testimonal *****************************************/
+#testimonials{
+  padding: 60px 50px;
+  background-color: rgb(224, 238, 253);
+}
 .container{
     text-align:center;   
     margin:auto;
