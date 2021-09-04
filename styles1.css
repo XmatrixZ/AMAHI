@@ -1,0 +1,293 @@
+.text-center {
+  text-align: center;
+}
+
+.heading {
+  font-size: 2.5rem;
+  color: rgb(51, 72, 98);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.heading>span {
+  display: inline-block;
+}
+
+.big-line {
+  width: 15vw;
+  text-align: center;
+  color: rgb(221, 221, 221);
+  background-color: rgb(221, 221, 221);
+}
+
+.small-line {
+  width: 5vw;
+  text-align: center;
+  color: rgb(57, 117, 198);
+  height: 0.4vh;
+  margin-top: -3.25vh;
+  background-color: rgb(57, 117, 198);
+}
+
+#container {
+  width: 100vw;
+  height: 70vh;
+  background-color: white;
+}
+
+.caption {
+  font-family: 'Playfair Display', serif;
+}
+
+.caption-text {
+  margin-left: 9vw;
+  margin-right: 9vw;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 3vw;
+  width: 100vw;
+  height: 70vh;
+  justify-content: space-around;
+}
+
+.hospital-1 {
+  width: 41vw;
+  height: 30vh;
+  background-color: white;
+  box-shadow: 0 2px 15px rgb(44 73 100 / 8%);
+  border-radius: 5%;
+  margin-left: 5vw;
+  display: flex;
+}
+
+.hospital-2 {
+  width: 41vw;
+  height: 30vh;
+  background-color: white;
+  margin-right: 5vw;
+  box-shadow: 0 2px 15px rgb(44 73 100 / 8%);
+  border-radius: 5%;
+  display: flex;
+}
+
+.hospital-3 {
+  width: 41vw;
+  height: 30vh;
+  background-color: white;
+  margin-left: 5vw;
+  box-shadow: 0 2px 15px rgb(44 73 100 / 8%);
+  border-radius: 5%;
+  display: flex;
+}
+
+.hospital-4 {
+  width: 41vw;
+  height: 30vh;
+  background-color: white;
+  margin-right: 5vw;
+  box-shadow: 0 2px 15px rgb(44 73 100 / 8%);
+  border-radius: 5%;
+  display: flex;
+}
+
+@media (max-width:815px) {
+  .hospital-1 {
+    width: 90vw;
+    margin: 5vw;
+  }
+
+  .hospital-2 {
+    width: 90vw;
+    margin: 5vw;
+  }
+
+  .hospital-title {
+    width: 70%;
+  }
+
+  .hospital-3 {
+    width: 90vw;
+    margin: 5vw;
+  }
+
+  .hospital-4 {
+    width: 90vw;
+    margin: 5vw;
+  }
+}
+
+.image img {
+  height: 24vh;
+  position: relative;
+  top: 10%;
+  left: 2vw;
+  bottom: 1vw;
+  max-height: 25vh;
+  border-radius: 100%;
+  box-shadow: 0 2px 15px rgb(44 73 100 / 8%);
+}
+
+.image img:hover {
+  cursor: pointer;
+  transform: scale(1.05, 1.05);
+}
+
+.hospital-title {
+  display: inline-block;
+  padding-left: 6vw;
+  flex-grow: 1;
+  width: 50%;
+}
+
+.image {
+  display: inline-block;
+}
+
+.hospital-title-text {
+  font-size: 1.2rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  margin-bottom: 5px;
+  color: #2c4964;
+}
+
+.address h5 {
+  position: relative;
+  font-size: 1rem;
+}
+
+.address {
+  width: 50%;
+}
+
+.horizontal-list {
+  list-style: none;
+  padding-left: 0px;
+  margin: 0px;
+}
+
+.horizontal-list li {
+  display: inline-block;
+  margin: 0 8px 8px 0;
+  font-weight: 100;
+  font-size: 0.9rem;
+  border-radius: 50%;
+}
+
+.horizontal-list li a {
+  color: white;
+  text-decoration: none;
+}
+
+.linkedin {
+  color: grey;
+}
+
+.social-icons li a i {
+  padding: 10px;
+  font-size: 1.5rem;
+  background-color: rgb(165, 187, 211);
+}
+
+.linkedin i {
+  border-radius: 50%;
+  height: 50%;
+  width: 60%;
+}
+
+.google i {
+  border-radius: 50%;
+  height: 50%;
+  width: 50%;
+}
+
+.facebook i {
+  border-radius: 50%;
+  height: 60%;
+  width: 70%;
+}
+
+.social-icons li a i:hover {
+  box-shadow: 0 0 6px 4px rgba(230, 196, 196, 0.3);
+  background-color: rgb(57, 117, 198);
+}
+
+@media (min-width:800px) {
+  .hospital-title-text {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width:1040px) and (min-width:800px) {
+  .social-icons li a i {
+    padding: 5px;
+    padding-right: 6px;
+    font-size: 1rem;
+    margin-top: -5px;
+  }
+}
+
+@media (max-width:415px) and (min-width:250px) {
+  .social-icons li a i {
+    padding: 8px;
+    font-size: 1rem;
+    margin-top: -14px;
+  }
+
+  .google i {
+    height: 50%;
+    width: 50%;
+  }
+
+  .linkedin i {
+    height: 60%;
+    width: 60%;
+  }
+
+  .facebook i {
+    height: 60%;
+    width: 70%;
+    padding-right: 8px;
+  }
+
+  .mah {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width:300px) {
+  .hospital-title-text {
+    font-size: 0.9rem;
+  }
+
+  .social-icons li a i {
+    padding: 6px;
+    font-size: 1rem;
+    margin-top: -14px;
+  }
+
+  .google i {
+    height: 50%;
+    width: 50%;
+  }
+
+  .linkedin i {
+    height: 60%;
+    width: 60%;
+  }
+
+  .facebook i {
+    height: 60%;
+    width: 70%;
+    padding-right: 8px;
+  }
+
+  .address h5 {
+    font-size: 0.65rem;
+  }
+}
+
+​
