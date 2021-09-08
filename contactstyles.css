@@ -1,0 +1,341 @@
+body {
+    margin: 0;
+}
+
+#contact {
+    margin: 0;
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+.heading {
+    font-size: 2.5rem;
+    color: rgb(51, 72, 98);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.heading>span {
+    display: inline-block;
+}
+
+.big-line {
+    width: 15vw;
+    text-align: center;
+    color: rgb(221, 221, 221);
+    background-color: rgb(221, 221, 221);
+}
+
+.small-line {
+    width: 5vw;
+    text-align: center;
+    color: rgb(57, 117, 198);
+    height: 3px;
+    margin-top: -24px;
+    background-color: rgb(57, 117, 198);
+}
+
+#container {
+    width: 100vw;
+    height: 70vh;
+    background-color: white;
+    max-width: 100%;
+}
+
+.caption {
+    font-family: 'Playfair Display', serif;
+}
+
+.caption-text {
+    margin-left: 9vw;
+    margin-right: 9vw;
+}
+
+.left-half {
+    width: 36.5%;
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.right-half {
+    width: 59%;
+    margin-top: 30px;
+    margin-right: 20px;
+    float: right;
+    max-width: 89%;
+}
+
+.contact-list {
+    list-style: none;
+    font-size: 3rem;
+    color: #0367c1;
+    width: auto;
+    display: inline-block;
+}
+
+.circle {
+    box-sizing: border-box;
+    display: inline-block;
+    height: 100px;
+    width: auto;
+    border-radius: 50%;
+    margin-left: 25px;
+    font-size: 3rem;
+    background-color: rgb(219, 232, 248);
+
+}
+
+#update {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #0367c1;
+    -webkit-transition: background-color 0.9s ease-out;
+    -moz-transition: background-color 0.9s ease-out;
+    -o-transition: background-color 0.9s ease-out;
+    transition: background-color 0.9s ease-out;
+}
+
+#update:hover {
+    color: white;
+    background-color: #0367c1;
+}
+
+.contact-caption {
+    display: inline-block;
+    position: absolute;
+    top: 16%;
+    left: 36%;
+}
+
+.mail-caption {
+    display: inline-block;
+    position: absolute;
+    top: 16%;
+    left: 36%;
+}
+
+.call-caption {
+    display: inline-block;
+    position: absolute;
+    top: 16%;
+    left: 36%;
+}
+
+.address-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(4, 24, 99);
+}
+
+.mail-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(4, 24, 99);
+}
+
+.call-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(4, 24, 99);
+}
+
+.address {
+    position: relative;
+}
+
+.mail {
+    position: relative;
+    margin-top: 10%;
+}
+
+.call {
+    position: relative;
+    margin-top: 10%;
+}
+
+.info {
+    font-family: 'Space Grotesk', sans-serif;
+    color: rgb(88, 124, 167);
+    font-size: 1.1rem;
+}
+
+.message-form {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    /* flex-wrap: wrap; */
+    width: 85%;
+}
+
+.form-group {
+    width: 80%;
+}
+
+.form-control {
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 0;
+    border: 1px solid grey;
+    padding: .375rem .75rem;
+    width: 100%;
+}
+
+.message-button {
+    color: white;
+    background-color: #0367c1;
+    border: 0;
+    border-radius: 50px;
+    padding: 10px 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    -webkit-transition: background-color 0.4s ease-out;
+    -moz-transition: background-color 0.4s ease-out;
+    -o-transition: background-color 0.4s ease-out;
+    transition: background-color 0.4s ease-out;
+
+}
+
+.message-button:hover {
+    cursor: pointer;
+    background-color: #498fce;
+}
+
+.message-form input {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    height: 44px;
+    position: relative;
+}
+
+.margin20 {
+    margin: 20px;
+}
+
+.margin30 {
+    margin-top: 30px;
+}
+
+.form-name {
+    width: 38%;
+}
+
+.email-name {
+    width: 50%;
+}
+
+.div-centre {
+    position: absolute;
+    left: 60%;
+}
+
+@media screen and (max-width:985px) {
+    .right-half {
+        width: 100vw;
+        float: none;
+        margin-left: 85px;
+    }
+
+    .left-half {
+        float: none;
+        width: 50%;
+        margin-left:70px;
+    }
+
+    .div-centre {
+        position: absolute;
+        left: 40%;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .right-half {
+        margin: 20px auto;
+        margin-left: 70px;
+    }
+
+    .left-half {
+        width: 70%;
+    }
+
+    .div-centre {
+        position: absolute;
+        left: 30%;
+    }
+}
+
+
+@media screen and (max-width:505px) {
+    .left-half {
+        width: 100%;
+        margin-left:30px;
+    }
+
+    .right-half {
+        margin: 20px auto;
+        margin-left: 45px;
+    }
+}
+
+@media screen and (max-width:475px) {
+    .circle {
+        font-size: 2.2rem;
+    }
+
+    .info {
+        font-size: 0.9rem;
+    }
+
+    .address-heading,
+    .mail-heading,
+    .call-heading {
+        font-size: 1.3rem;
+    }
+
+    #update {
+        height: 80px;
+        width: 80px;
+    }
+
+    .circle {
+        height: 80px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .circle {
+        font-size: 2rem;
+    }
+
+    .info {
+        font-size: 0.7rem;
+    }
+
+    .address-heading,
+    .mail-heading,
+    .call-heading {
+        font-size: 1.1rem;
+    }
+
+    .message-form input {
+        font-size: 12px;
+    }
+
+    .message-button {
+        font-size: 0.9rem;
+    }
+}
