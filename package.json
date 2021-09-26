@@ -1,0 +1,24 @@
+{
+  "name": "amahi",
+  "version": "1.0.0",
+  "description": "Appointment's made safe and easy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XmatrixZ/AMAHI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XmatrixZ/AMAHI/issues"
+  },
+  "homepage": "https://github.com/XmatrixZ/AMAHI#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12",
+    "path": "^0.12.7"
+  }
+}
