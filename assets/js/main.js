@@ -207,5 +207,16 @@
       }
     });
   });
-  
+    //login popup section
+  document.getElementById("login-btn").addEventListener("click",(event)=>{
+    document.querySelector(".login-popup").style.display='flex';
+    document.body.style.overflow='hidden';
+  });
+  document.getElementsByClassName("login-form-close")[0].addEventListener("click",(event)=>{
+    document.querySelector(".login-popup").style.display='none';
+    document.body.style.overflow='auto';
+  });
+
+
+
 })()
