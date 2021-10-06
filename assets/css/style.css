@@ -1112,7 +1112,6 @@ margin:65px auto 2px;
     margin: 0;
     width: 100%;
     margin-top: 20px;
-
 }
 
 .text-center {
@@ -1466,6 +1465,14 @@ margin:65px auto 2px;
     .message-button {
         font-size: 0.9rem;
     }
+}
+
+#contact-form-error{
+    color: #e74c3c;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
 }
 
 /*--------------------------------------------------------------
