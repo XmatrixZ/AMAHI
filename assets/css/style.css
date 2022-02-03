@@ -891,7 +891,7 @@ section {
     }
 }
 /*--------------------------------------------------------------
-# Testimonal Section
+# Testimonial Section
 --------------------------------------------------------------*/
 .container1{
     text-align:center;   
@@ -964,6 +964,73 @@ margin:65px auto 2px;
         box-shadow: 5px 5px 8px grey;
         position:relative;
     }
+}
+
+.testimonial1{
+  margin-top: 15%;
+  background-color: rgb(240,248,255);
+}
+.testimonial1 .img-text{
+  width: 100%;
+  height: 320px;
+  display: block;
+  text-align: center;
+  padding: 40% 10%;
+  background: white;
+  border-radius: 20px;
+}
+.testimonial1 .img-text h2{
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #0367c1;
+}
+.testimonial1 .img-text p{
+  font-size: 14px;
+  color: black;
+}
+.testimonial1 .single-box{
+  position: relative;
+  margin-bottom: 30px;
+}
+.testimonial1 .img-area{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border: 5px solid whitesmoke;
+  box-shadow: 0 8px 30px -7px #c9dff0;
+  overflow: hidden;
+  top: 25px;
+  left: 14rem;
+  border-radius: 50%;
+}
+ .testimonial1 .img-area img{
+  width: 100%;
+  box-shadow: 0 8px 20px -4px #95abbb;
+}
+.testimonial1 .carousel-indicators{
+   top: auto;
+   bottom: -70px;
+   opacity: 0.5;
+ }
+ .testimonial1 .carousel-inner {
+    position: relative;
+    width: 92%;
+    overflow: hidden;
+    margin: 4rem;
+}
+ .testimonial1 .carousel-indicators li{
+   background: whitesmoke;
+   border-radius: 50%;
+   width: 20px;
+   height: 20px;
+   margin-left: 1rem;
+   border-width: 5px;
+   border-color: rgb(26,181,245);
+ }
+.testimonial1 .carousel-indicators .active{
+  background-color:whitesmoke;
+  opacity: 1;
 }
 /*--------------------------------------------------------------
 # Make an Appointment
@@ -1112,7 +1179,6 @@ margin:65px auto 2px;
     margin: 0;
     width: 100%;
     margin-top: 20px;
-
 }
 
 .text-center {
@@ -1466,6 +1532,14 @@ margin:65px auto 2px;
     .message-button {
         font-size: 0.9rem;
     }
+}
+
+#contact-form-error{
+    color: #e74c3c;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
 }
 
 /*--------------------------------------------------------------
